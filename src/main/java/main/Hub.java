@@ -9,7 +9,11 @@ public class Hub {
 		// TODO Auto-generated method stub
 		System.out.println("Hello World from Portland");
 		System.out.println("now it is executable");
-		System.out.println("adding 3rd line");
+		System.out.println("...starting calculator");
+		
+		Calculator calc=new Calculator();
+		System.out.println(calc.add(1, 2));
+		
 
 	}
 
