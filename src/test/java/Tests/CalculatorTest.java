@@ -19,4 +19,10 @@ public class CalculatorTest {
 		Calculator calc=new Calculator();
 		Assert.assertEquals(0, calc.add(0, 0));
 	}
+	
+	@Test
+	public void addTest3() {
+		Calculator calc=new Calculator();
+		Assert.assertEquals(1, calc.add(0, 0));
+	}	
 }
